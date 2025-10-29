@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Tahir Aijaz - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color:  #333;
+            background-color: #f4f4f4;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 60px auto; 
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #8B3A3A, #A64545);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            object-fit: cover;
+            background: #7A2F2F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+        }
+
+        .header-content h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .header-content .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .main-content {
+            display: flex;
+        }
+
+        .left-column {
+            background: #8B3A3A;
+            color: white;
+            width: 35%;
+            padding: 30px;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 30px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #8B3A3A;
+            border-bottom: 2px solid #8B3A3A;
+            padding-bottom: 5px;
+        }
+
+        .left-column .section-title {
+            color: white;
+            border-bottom-color: white;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            gap: 10px;
+        }
+
+        .contact-item i {
+            width: 20px;
+            text-align: center;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 8px;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #8B3A3A;
+            font-size: 1.1em;
+        }
+
+        .company {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .duration {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .job-description {
+            margin-left: 0;
+        }
+
+        .job-description li {
+            margin-bottom: 5px;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .education-item h4 {
+            color: #8B3A3A;
+            font-weight: bold;
+        }
+
+        .education-details {
+            color: #666;
+            font-style: italic;
+        }
+
+        .interests {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .interest-tag {
+            background: #8B3A3A;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .about-text {
+            text-align: justify;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .left-column, .right-column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="profile-image">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="header-content">
+                <h1>Muhammad Tahir Aijaz</h1>
+                <p class="subtitle">Versatile Educator, Creative Content Creator & Tech Enthusiast</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Contact Information -->
+                <div class="section">
+                    <h3 class="section-title">My Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mt99919@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+923172562424 F/15/1/3-A</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>North Quarters</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/muhammad-tahir-8348bb229</span>
+                    </div>
+                </div>
+
+                <!-- Hard Skills -->
+                <div class="section">
+                    <h3 class="section-title">Hard Skills</h3>
+                    <ul class="skills-list">
+                        <li>Teaching</li>
+                        <li>Content Writing</li>
+                        <li>Graphic Design</li>
+                        <li>Video Editing</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="section">
+                    <h3 class="section-title">Soft Skills</h3>
+                    <ul class="skills-list">
+                        <li>Observation</li>
+                        <li>Teaching Aptitude</li>
+                        <li>Communication</li>
+                        <li>Public Speaking</li>
+                        <li>Content Ideation</li>
+                        <li>Voiceover</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- About Me -->
+                <div class="section">
+                    <h3 class="section-title">About Me</h3>
+                    <p class="about-text">
+                        A dedicated and passionate individual with a deep interest in technology and computer science. Seeking opportunities to leverage teaching and content creation in a dynamic and innovative environment. Eager to explore the fields of AI, Data Science, and Machine Learning while making a positive impact on the tech industry.
+                    </p>
+                </div>
+
+                <!-- Professional Experience -->
+                <div class="section">
+                    <h3 class="section-title">Professional Experience</h3>
+                    
+                    <div class="job">
+                        <div class="company">Off The School | 2021 - Present</div>
+                        <div class="job-title">Content Writer & Ed-Tech Presenter</div>
+                        <ul class="job-description">
+                            <li>Develop and refine informative content on various topics, focusing on technology and science.</li>
+                            <li>Present educational content on social media platforms.</li>
+                            <li>Collaborate with the creative team to create visually appealing and informative presentations.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <div class="company">Video Editor & Graphic Designer</div>
+                        <ul class="job-description">
+                            <li>Design eye-catching graphics and thumbnails for marketing and promotional materials, specifically for content enhancing the quality and presentation of video content.</li>
+                            <li>Coached individuals on graphic design principles and support to enhance their creative skills.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <div class="company">Basic English Teacher</div>
+                        <ul class="job-description">
+                            <li>Conducted English classes for secondary students, focusing on language skills and communication.</li>
+                            <li>Utilize effective teaching methodologies to ensure student engagement and understanding.</li>
+                            <li>Foster a positive and inclusive learning environment for all students.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <div class="company">Former Social Media Team Lead</div>
+                        <ul class="job-description">
+                            <li>Led a team overseeing social media campaigns and content creation.</li>
+                            <li>Managed the institute's LinkedIn profile, engaging with the community and post announcements.</li>
+                            <li>Analyzed social media metrics and implemented strategies to improve reach and engagement.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <div class="company">Front-end Developer</div>
+                        <ul class="job-description">
+                            <li>Developed interactive and responsive web applications using modern technologies like HTML, CSS and JavaScript.</li>
+                            <li>Collaborated with cross-functional teams to create user-friendly interfaces.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="section">
+                    <h3 class="section-title">Education Background</h3>
+                    
+                    <div class="education-item">
+                        <h4>Muhammad Ali Jinnah University, Karachi, [Sindh] - [Ongoing]</h4>
+                        <p class="education-details">Bachelor of Science in Computer Science</p>
+                        <p class="education-details">[2022] - Present</p>
+                        <p class="education-details">Completed in 2021</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h4>Mama Baby Care School, [Karachi], [Sindh]</h4>
+                        <p class="education-details">Matriculation</p>
+                        <p class="education-details">Completed in 2019</p>
+                    </div>
+                </div>
+
+                <!-- Interests -->
+                <div class="section">
+                    <h3 class="section-title">Interests</h3>
+                    <div class="interests">
+                        <span class="interest-tag">Astronomy</span>
+                        <span class="interest-tag">Reading</span>
+                        <span class="interest-tag">Movies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
