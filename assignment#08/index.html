@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Instruments Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        
+        th {
+            background-color: #4a90e2;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        .photo-column {
+            width: 150px;
+            text-align: center;
+        }
+        
+        .description-column {
+            width: 60%;
+        }
+        
+        .price-column {
+            width: 100px;
+            text-align: right;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .instrument-image {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        
+        .placeholder-image {
+            width: 120px;
+            height: 80px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Musical Instruments Catalog</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th class="photo-column">Photo</th>
+                    <th class="description-column">Description</th>
+                    <th class="price-column">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="photo-column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4t8l5TpaHoXOkEqxSboGIU15tbm0Mg1pbEcsp8M6dRkthICQTUlrzD34&s" alt="Rhodes Piano" class="instrument-image">
+                    </td>
+                    <td class="description-column">
+                        The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.
+                    </td>
+                    <td class="price-column">$1400</td>
+                </tr>
+                <tr>
+                    <td class="photo-column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Ag_L8u0XxrCnwCtulCZP8zbsHV7U-pXclfTVQ60F17Rki6SnJeInAKQ&s" alt="Wurlitzer Piano" class="instrument-image">
+                    </td>
+                    <td class="description-column">
+                        The Wurlitzer electric piano is an electro-mechanical piano, created by the Rudolph Wurlitzer Company of Mississippi. The Wurlitzer company itself never called the instrument an "electric piano", instead inventing the phrase "Electronic Piano" and using this as a trademark throughout the production of the instrument. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.
+                    </td>
+                    <td class="price-column">$1600</td>
+                </tr>
+                <tr>
+                    <td class="photo-column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhjJ84PRJIyDIxc2wSpYSiRzs9eTk0RDQQZ0JpvTf0Ye2bGz3X-8X3kS0&s" alt="Clavinet" class="instrument-image">
+                    </td>
+                    <td class="description-column">
+                        A Clavinet is an electronically amplified clavichord manufactured by the Hohner company. Each key uses a rubber tip to perform a hammer on a string. Its distinctive bright staccato sound is often compared to that of an electric guitar. Various models were produced over the years, including the models I, II, L, C, D6, and E7.
+                    </td>
+                    <td class="price-column">$1200</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
